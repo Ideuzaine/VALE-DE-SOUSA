@@ -10,7 +10,7 @@
       background-color: #111;
       color: #fff;
       font-family: "Times New Roman", serif;
-      transition: opacity 0.1s ease-in-out;
+      transition: opacity 0.2s ease-in-out;
     }
     .hidden {
       opacity: 0;
@@ -51,7 +51,7 @@ Je suis née au Portugal, dans la ville de Braga, c'est au nord du Portugal. C'e
     function onScroll() {
       showText();
       clearTimeout(timeout);
-      timeout = setTimeout(hideText, 100);
+      timeout = setTimeout(hideText, 200);
     }
     window.addEventListener("scroll", onScroll);
     window.addEventListener("touchmove", onScroll);
